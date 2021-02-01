@@ -130,7 +130,7 @@ class RBSheet extends Component {
             {closeOnDragDown && (
               <View
                 {...(dragFromTopOnly && this.panResponder.panHandlers)}
-                style={styles.draggableContainer}
+                style={[styles.draggableContainer, customStyles.draggableContainer]}
               >
                 <View style={[styles.draggableIcon, customStyles.draggableIcon]} />
               </View>

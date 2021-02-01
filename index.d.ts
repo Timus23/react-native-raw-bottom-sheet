@@ -18,6 +18,7 @@ declare module "react-native-raw-bottom-sheet" {
       wrapper?: StyleProp<ViewStyle>;
       container?: StyleProp<ViewStyle>;
       draggableIcon?: StyleProp<ViewStyle>;
+      draggableContainer?: StyleProp<ViewStyle>;
     };
     keyboardAvoidingViewEnabled?: boolean;
   };
